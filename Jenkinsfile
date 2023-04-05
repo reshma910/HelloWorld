@@ -31,7 +31,7 @@ pipeline {
         stage('build image'){
               
             steps{
-               sh 'docker build -t reshmapatel1999/my-app:2.0.0 D:\Documents\jenkins'
+               sh 'docker build -t reshmapatel1999/my-app:2.0.0 .'
             }
         }
 
